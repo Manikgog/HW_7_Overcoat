@@ -47,6 +47,18 @@ Overcoat::Overcoat(const Overcoat& ov)
 	strcpy_s(ov._color, strlen(ov._color) + 1, this->_color);
 }
 
+Overcoat::~Overcoat()
+{
+	if (_type)
+		delete[] _type;
+	if (_manufacturer)
+		delete[] _manufacturer;
+	if (_size)
+		delete[] _size;
+	if (_color)
+		delete[] _color;
+}
+
 Overcoat& Overcoat::operator=(const Overcoat& ov)
 {
 	if (this == &ov)

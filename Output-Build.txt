@@ -1,0 +1,6 @@
+﻿Build started...
+1>------ Build started: Project: HW_7_Flat, Configuration: Debug x64 ------
+1>main.cpp
+1>HW_7_Flat.vcxproj -> C:\Users\Maksim\source\repos\HW_7_Flat\x64\Debug\HW_7_Flat.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 4:17 PM and took 08,352 seconds ==========

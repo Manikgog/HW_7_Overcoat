@@ -19,6 +19,7 @@ public:
 	Overcoat(const char* type, const char* manufacturer);
 	Overcoat(const char* type, const char* manufacturer, const char* size);
 	Overcoat(const char* type, const char* manufacturer, const char* size, const char* color);
+	~Overcoat();
 	Overcoat(const Overcoat& ov);
 	Overcoat& operator=(const Overcoat& ov);
 	bool operator<(const Overcoat& ov);
